@@ -9,3 +9,11 @@ def batch_badge_creator(attendees)
   end
   return ans
 end
+
+def assign_rooms(attendees)
+  ans = []
+  attendees.each_with_index do |attendee, i|
+    ans << 
+  end
+  return ans
+    

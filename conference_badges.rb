@@ -20,6 +20,9 @@ end
 
 def printer(attendees)
   ans = []
+  attendees.each do |name|
+    ans << "Hello, my name is #{name}."
+  end
   return ans
 end
     

@@ -20,9 +20,6 @@ end
 
 def printer(attendees)
   ans = []
-  attendees.each do |name|
-    ans << batch_badge_creator(name)
-  end
   return ans
 end
     
